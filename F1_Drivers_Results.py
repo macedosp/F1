@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import altair as alt
+from pathlib import Path
 
 # Load data
 df = pd.read_csv('./Arquivos/drivers_updated.csv')
