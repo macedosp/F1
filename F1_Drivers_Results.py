@@ -3,7 +3,7 @@ import streamlit as st
 import altair as alt
 
 # Load data
-df = pd.read_csv('/Arquivos/drivers_updated.csv')
+df = pd.read_csv('Arquivos/drivers_updated.csv')
 winners_df = pd.read_csv('/arquivos/winners.csv')
 fastest_laps_df = pd.read_csv('/arquivos/fastest_laps_updated.csv')
 teams_df = pd.read_csv('/arquivos/teams_updated.csv')
