@@ -1,3 +1,7 @@
+import os
+print("Diretório atual:", os.getcwd())
+print("Conteúdo do diretório:", os.listdir())
+
 import pandas as pd
 import streamlit as st
 import altair as alt
@@ -5,9 +9,9 @@ from pathlib import Path
 
 # Load data
 df = pd.read_csv('./Arquivos/drivers_updated.csv')
-winners_df = pd.read_csv('./arquivos/winners.csv')
-fastest_laps_df = pd.read_csv('./arquivos/fastest_laps_updated.csv')
-teams_df = pd.read_csv('./arquivos/teams_updated.csv')
+winners_df = pd.read_csv('./Arquivos/winners.csv')
+fastest_laps_df = pd.read_csv('./Arquivos/fastest_laps_updated.csv')
+teams_df = pd.read_csv('./Arquivos/teams_updated.csv')
 
 # Streamlit App
 def main():
